@@ -1,0 +1,10 @@
+:root {
+  --primary: #BCEFA1;
+  --primaryFade: #D3EDC6;
+  --body: #CCE6E2;
+  --text: #009D85;
+  --header1: #246900;
+  --container: #F0F0F0;
+  --headerOpacity: '70%';
+  --space: '14px';
+}
