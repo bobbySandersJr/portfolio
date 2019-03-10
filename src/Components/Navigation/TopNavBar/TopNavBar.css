@@ -1,0 +1,15 @@
+@import '../../../assets/assets.css';
+
+.TopNavBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:var(--primary);
+  height:76px;
+  border: 1px solid var(--border);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: var(--space);
+}
