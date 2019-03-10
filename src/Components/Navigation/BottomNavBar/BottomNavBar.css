@@ -1,10 +1,10 @@
 @import '../../../assets/assets.css';
 
-.TopNavBar {
+.BottomNavBar {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  background-color:var(--primary);
+  background-color:var(--primaryFade);
   height:76px;
   border: 1px solid var(--border);
   width: 100%;
