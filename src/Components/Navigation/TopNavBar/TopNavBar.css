@@ -11,5 +11,15 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: var(--space);
+  padding: 0 var(--space);
+}
+
+.TopNavBar nav {
+  height: 100%;
+}
+
+.Brand {
+  height: 80%;
+  padding: 7px 0;
+  width: auto;
 }
