@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import TopNavBar from '../../Navigation/TopNavBar/TopNavBar';
+import BottomNavBar from '../../Navigation/BottomNavBar/BottomNavBar';
 
 class Layout extends Component {
   render() {
@@ -8,7 +9,7 @@ class Layout extends Component {
       <div>
         <TopNavBar />
         ROUTER
-        FOOTER
+        <BottomNavBar />
       </div>
     );
   }
