@@ -28,6 +28,11 @@
     height: 100%;
     width: auto;
     align-items: center;
+    border-left: 1px solid var(--border);
+  }
+
+  .NavItem:last-child {
+    border-right: 1px solid var(--border);
   }
   
   .NavItem a {

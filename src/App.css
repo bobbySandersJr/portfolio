@@ -3,4 +3,5 @@
 .App {
   min-height: 100vh;
   background-color: var(--body);
+  font-family: 'Avenir';
 }
