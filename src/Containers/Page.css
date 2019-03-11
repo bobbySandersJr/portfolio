@@ -1,0 +1,5 @@
+@import '../assets/assets.css';
+
+.Page {
+  padding: var(--space);
+}

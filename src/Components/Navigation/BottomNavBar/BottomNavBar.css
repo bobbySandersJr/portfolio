@@ -1,7 +1,7 @@
 @import '../../../assets/assets.css';
 
 .BottomNavBar {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color:var(--primaryFade);
@@ -11,16 +11,4 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-}
-
-.TopNavBar nav {
-  height: 100%;
-  margin: 0 var(--space);
-}
-
-.Brand {
-  height: 80%;
-  padding: 7px 0;
-  width: auto;
-  margin: 0 var(--space);
 }

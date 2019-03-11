@@ -3,5 +3,6 @@
 .App {
   min-height: 100vh;
   background-color: var(--body);
-  font-family: 'Avenir';
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }

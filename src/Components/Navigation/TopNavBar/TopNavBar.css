@@ -1,7 +1,7 @@
 @import '../../../assets/assets.css';
 
 .TopNavBar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color:var(--primary);
@@ -11,11 +11,12 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  overflow: hidden;
 }
 
 .TopNavBar nav {
   height: 100%;
-  margin: 0 var(--space);
+  margin: 0;
 }
 
 .Brand {

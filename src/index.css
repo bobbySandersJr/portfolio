@@ -6,7 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+  min-height: 99.9vh;
+  max-width: 99.9vw;
 }
 
 body #root {

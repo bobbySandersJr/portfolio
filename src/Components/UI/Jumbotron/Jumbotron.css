@@ -1,0 +1,32 @@
+@import '../../../assets/assets.css';
+
+.Jumbotron {
+  background-color: var(--container);
+  box-shadow: 4px 6px 6px rgba(0,0,0,0.6);
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  padding: var(--space);
+}
+.Jumbotron h1 {
+  color: var(--header1);
+  font-weight: lighter;
+  margin: var(--space) 0;
+  padding: var(--space) 0;
+}
+
+.Jumbotron p,
+.Jumbotron div {
+  color: var(--text);
+  margin: var(--space) 0;
+  padding: var(--space) 0;
+  font-size: 25px;
+}
+
+.Jumbotron hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--header1);
+  margin: 1em 0;
+  padding: 0; 
+}

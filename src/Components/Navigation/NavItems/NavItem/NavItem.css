@@ -29,6 +29,7 @@
     width: auto;
     align-items: center;
     border-left: 1px solid var(--border);
+    min-width: 91px;
   }
 
   .NavItem:last-child {
@@ -41,6 +42,7 @@
     padding: 0 var(--space);
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .NavItem a:hover,
