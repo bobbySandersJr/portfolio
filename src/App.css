@@ -11,8 +11,26 @@
   width: 100%;
 }
 
+.MobileOnly {
+  display: inline;
+}
+
+.DesktopOnly {
+  display: none;
+}
+
 @media (min-width: 700px) {
   .Container {
     width: 80%;
+  }
+}
+
+@media (min-width: 800px){
+  .MobileOnly {
+    display: none;
+  }
+
+  .DesktopOnly {
+    display: block;
   }
 }

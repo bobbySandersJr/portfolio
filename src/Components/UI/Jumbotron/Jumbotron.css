@@ -3,7 +3,6 @@
 .Jumbotron {
   background-color: var(--container);
   box-shadow: var(--shadow);
-  border: 1px solid var(--primary);
   border-radius: var(--borderRadius);
   padding: var(--space);
 }
@@ -17,16 +16,6 @@
 .Jumbotron p,
 .Jumbotron div {
   color: var(--text);
-  margin: var(--space) 0;
-  padding: var(--space) 0;
   font-size: 25px;
-}
-
-.Jumbotron hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid var(--header1);
-  margin: 1em 0;
-  padding: 0; 
+  align-items: center;
 }
