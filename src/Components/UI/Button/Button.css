@@ -1,0 +1,12 @@
+@import '../../../assets/assets.css';
+
+.Button {
+  padding: 2px var(--space);
+  border: 1px solid var(--text);
+  border-radius: var(--borderRadius);
+  background-color: var(--text);
+  color: var(--primary);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+}

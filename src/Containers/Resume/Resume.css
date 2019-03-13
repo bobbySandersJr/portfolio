@@ -1,0 +1,9 @@
+@import '../../assets/assets.css';
+
+.Resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 100%;
+}

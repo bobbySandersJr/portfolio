@@ -8,4 +8,6 @@
   --border: #707070;
   --headerOpacity: 70%;
   --space: 14px;
+  --shadow: 4px 6px 6px rgba(0,0,0,0.6);
+  --borderRadius: 20px;
 }

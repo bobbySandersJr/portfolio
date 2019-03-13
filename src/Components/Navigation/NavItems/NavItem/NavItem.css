@@ -31,10 +31,6 @@
     border-left: 1px solid var(--border);
     min-width: 91px;
   }
-
-  .NavItem:last-child {
-    border-right: 1px solid var(--border);
-  }
   
   .NavItem a {
     color: var(--header1);

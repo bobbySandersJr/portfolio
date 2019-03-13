@@ -7,11 +7,12 @@
   background-color:var(--primary);
   height:76px;
   border: 1px solid var(--border);
-  width: 100%;
+  width: calc(100% - 2px);
   display: flex;
   justify-content: space-between;
   align-content: center;
   overflow: hidden;
+  z-index: 100;
 }
 
 .TopNavBar nav {

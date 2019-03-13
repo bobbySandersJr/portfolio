@@ -2,9 +2,9 @@
 
 .Jumbotron {
   background-color: var(--container);
-  box-shadow: 4px 6px 6px rgba(0,0,0,0.6);
+  box-shadow: var(--shadow);
   border: 1px solid var(--primary);
-  border-radius: 20px;
+  border-radius: var(--borderRadius);
   padding: var(--space);
 }
 .Jumbotron h1 {
