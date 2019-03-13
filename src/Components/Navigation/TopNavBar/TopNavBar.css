@@ -26,3 +26,29 @@
   width: auto;
   margin: 0 var(--space);
 }
+
+.Menu {
+  height: 80%;
+  padding: 7px 0;
+  width: auto;
+  margin: 3px var(--space);
+}
+
+.HideOnDesktop {
+  display: none;
+}
+
+.HideOnMobile {
+  display: block;
+}
+
+
+@media (max-width: 499px) {
+  .HideOnMobile {
+    display: none;
+  }
+
+  .HideOnDesktop {
+    display: block;
+  }
+} 

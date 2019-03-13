@@ -2,16 +2,23 @@ import React from 'react';
 
 import Logo from '../../UI/Logo/Logo';
 import NavItems from '../NavItems/NavItems';
-// import HambergerButton from '../../components/UI/hambergerButton/hambergerButton';
+import Button from '../../UI/Button/Button';
 
 import './TopNavBar.css';
 
 const toolbar = (props) => (
   <header className='TopNavBar'>
+    <div className='Menu HideOnDesktop'>
+      <Button classes='btnMenu'>
+        <div></div>
+        <div></div>
+        <div></div>
+      </Button>
+    </div>
     <div className='Brand'>
       <Logo />
     </div>
-    <nav>
+    <nav className='HideOnMobile'>
       <NavItems />
     </nav>
   </header>

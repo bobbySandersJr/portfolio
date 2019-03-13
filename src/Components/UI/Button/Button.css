@@ -9,4 +9,28 @@
   font-weight: bold;
   cursor: pointer;
   font-size: 17px;
+  transition: background-color 0.5s ease;
+}
+
+.Button div {
+  height: 6px;
+  width: 30px;
+  background-color: var(--primary);
+  margin: 7px 0;
+  border-radius: 5px;
+  border: 1px solid var(--border)
+}
+
+.Button.btnMenu {
+  border: 1px solid var(--border);
+}
+
+.Button.btnMenu:hover div,
+.Button.btnMenu:active div{
+  background-color: var(--text);
+}
+
+.Button.btnMenu:hover,
+.Button.btnMenu:active {
+  background-color: var(--container);
 }
