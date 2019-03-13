@@ -7,3 +7,30 @@
   flex-grow: 1;
   min-width: 100%;
 }
+
+.Projects {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: var(--space);
+}
+
+.Projects span:last-child {
+  margin: var(--space) 0;
+}
+
+.Projects:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+@media (min-width: 500px) {
+  .Projects {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
+    border-top: none;
+    padding-top: 0;
+  }
+}

@@ -73,7 +73,7 @@ class Resume extends Component {
             <Card title='Personal Projects'>
               <div>
                 <ul>
-                  <li>
+                  <li className='Projects'>
                     <span>This site (React.js)</span>
                     <span>
                       <Button doClick={() => {this.buttonClickedHandler(this.state.projectLinks[0])}}>See the code</Button>
