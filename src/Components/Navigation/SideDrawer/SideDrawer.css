@@ -1,0 +1,29 @@
+@import '../../../assets/assets.css';
+
+.SideDrawer {
+  height: calc(100vh - 30px);
+  width: 70%;
+  max-width: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  border: 1px solid var(--border);
+  background-color: var(--container);
+  padding: var(--space) 0;
+  transition: transform 0.25s ease-in-out;
+}
+
+.SideDrawer .Logo {
+  height: 11%;
+  width: auto;
+  padding-left: var(--space);
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-100%);
+}

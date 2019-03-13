@@ -2,10 +2,10 @@
 
 .Button {
   padding: 2px var(--space);
-  border: 1px solid var(--text);
+  border: 1px solid var(--border);
   border-radius: var(--borderRadius);
-  background-color: var(--text);
-  color: var(--primary);
+  background-color: var(--primaryFade);
+  color: var(--header1);
   font-weight: bold;
   cursor: pointer;
   font-size: 17px;
@@ -13,21 +13,22 @@
 }
 
 .Button div {
-  height: 6px;
-  width: 30px;
-  background-color: var(--primary);
-  margin: 7px 0;
+  height: 5px;
+  width: 25px;
+  background-color: var(--container);
+  margin: 5px 0;
   border-radius: 5px;
   border: 1px solid var(--border)
 }
 
 .Button.btnMenu {
   border: 1px solid var(--border);
+  border-radius: 15px;
 }
 
 .Button.btnMenu:hover div,
 .Button.btnMenu:active div{
-  background-color: var(--text);
+  background-color: var(--primaryFade);
 }
 
 .Button.btnMenu:hover,

@@ -9,7 +9,7 @@ import './TopNavBar.css';
 const toolbar = (props) => (
   <header className='TopNavBar'>
     <div className='Menu HideOnDesktop'>
-      <Button classes='btnMenu'>
+      <Button classes='btnMenu' doClick={props.toggleDrawer}>
         <div></div>
         <div></div>
         <div></div>
