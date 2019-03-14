@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Jumbotron from '../../Components/UI/Jumbotron/Jumbotron';
 import Logo from '../../Components/UI/Logo/Logo';
@@ -7,7 +8,30 @@ import './Home.css';
 import '../Page.css';
 
 class Home extends Component {
+  state = {
+    iconLinks: [
+      'https://github.com/green-sands-apps',
+      'https://www.facebook.com/GreenSandsApps',
+    ],
+    icons: [
+      ['fab', 'github'],
+      [ 'fab', 'facebook-f'],
+    ]
+  }
+
   render() {
+    const icons = this.state.icons.map((icon, index) => {
+        console.log(icon);
+        return(
+          <div 
+            onClick={() => {window.location.href = this.state.iconLinks[index]}}
+            className='IconWrapper'
+          >
+            <FontAwesomeIcon icon={icon} size='lg'/>
+          </div>
+        )
+      })
+
     return (
       <div className='Page'>
         <div>
@@ -28,7 +52,7 @@ class Home extends Component {
             </div>
             <div style={{width: '100%'}}>
                 <div className='IconLinks'>
-                  Icon links here
+                  {icons}
                 </div>
               </div>
           </Jumbotron>

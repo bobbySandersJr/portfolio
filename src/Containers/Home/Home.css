@@ -8,9 +8,15 @@
 }
 
 .IconLinks {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   border-top: 1px solid var(--header1);
-  padding: var(--space) 0;
+  padding-top: var(--space);
+}
+
+.IconWrapper {
+  cursor: pointer;
+  padding: 0 var(--space);
 }
 
 .MainLogo .Logo{
