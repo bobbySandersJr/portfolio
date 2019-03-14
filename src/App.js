@@ -13,7 +13,7 @@ import './App.css';
 library.add(
   faGithub,
   faFacebookF
-  )
+);
 
 class App extends Component {
 

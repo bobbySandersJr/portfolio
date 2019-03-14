@@ -6,7 +6,9 @@ import './BottomNavBar.css';
 
 const toolbar = (props) => (
   <footer className='BottomNavBar'>
-
+      <div style={{alignItems: 'center', display: 'flex', margin: '0 14px'}}>
+        &copy; 2019 Green Sands Apps
+      </div>
   </footer>
 );
 
