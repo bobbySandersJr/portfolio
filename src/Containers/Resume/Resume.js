@@ -8,7 +8,7 @@ import './Resume.css';
 class Resume extends Component {
   state = {
     projectLinks : [
-      'https://github.com/bobbySandersJr/portfolio',
+      'https://github.com/green-sands-apps/portfolio',
     ]
   }
 
